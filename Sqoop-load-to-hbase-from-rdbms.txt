@@ -1,0 +1,1 @@
+sqoop import --connect jdbc:mysql://localhost:3306/kylo --username root --password hadoop --table BATCH_NIFI_JOB --hbase-table BATCH_NIFI_JOB_hbase --column-family EVENT_ID --hbase-row-key EVENT_ID;
